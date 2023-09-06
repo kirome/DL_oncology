@@ -10,6 +10,7 @@ MSI status prediction on WSI of colorectal patients.
 - HIA_custom: folder containing modified HIA (KatherLab) scripts to load models from file and not from URL
 - The folder also contains the CLINI and SLIDE files needed to run experiments on HIA
 
-## CXR
+
+## CXR_LC
 Lung cancer classification of chest X-Ray images.
 - The folder contains examples of classification models (ResNet, ViT, densenet) and a python script to recreate the multiple AUC and PR curves plot.
