@@ -10,6 +10,7 @@ HIA repository: https://github.com/KatherLab/HIA
 - preProcessing: scripts to perform image normalization
 - HIA_custom: folder containing modified HIA (KatherLab) scripts to load models from file and not from URL
 - The folder also contains the CLINI and SLIDE files needed to run experiments on HIA
+- Examples to run fine-tuning and deployment of models in the HIA required format are also provided
 
 
 ## CXR_LC
