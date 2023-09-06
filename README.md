@@ -1,7 +1,7 @@
 # DL oncology repo
 
 ## MSI_CRC
-MSI status prediction on WSI of colorectal patients. \n
+MSI status prediction on WSI of colorectal patients.    
 HIA repository: https://github.com/KatherLab/HIA
 
 ### Preprocessing
