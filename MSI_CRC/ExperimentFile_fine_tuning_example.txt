@@ -1,0 +1,18 @@
+{
+    "projectDetails": "MSI HMAR normalized. Fine-tuning of Kather's model",
+    "dataDir_train": ["/data/home/xmonzonis/MSI_PSMAR/QuPath_MSI_PSMAR"],
+
+    "targetLabels": ["DX"],
+    "trainFull": "True",
+
+    "maxNumBlocks": 512,
+    "epochs": 10,
+    "batchSize": 32,
+       
+    "model_path": "/data/home/xmonzonis/Exp5_MODEL_Full.pth",
+    "opt": "adam",
+    "lr": 0.0001,
+    "reg": 0.00001,
+    "gpuNo": 4,
+    "freezeRatio": 0.5
+}

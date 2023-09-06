@@ -1,0 +1,8 @@
+{
+    "projectDetails": "MSI HMAR normalized. Model Kather et al 2019",
+    "dataDir_test": ["/data/home/xmonzonis/MSI_PSMAR/QuPath_MSI_PSMAR"],
+    
+    "targetLabels": ["DX"]
+
+    
+}
