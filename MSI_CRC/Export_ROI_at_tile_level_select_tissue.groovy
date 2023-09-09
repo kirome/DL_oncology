@@ -37,6 +37,7 @@ for (def file in dirOutput.listFiles()) {
     if (!file.isFile() || file.isHidden() || !file.getName().endsWith(extension))
         continue
     def newName = file.getName().replaceAll(".bif - Series 0","_").replaceAll(".bif","_").replaceAll(" ","_").replaceAll("=","-").replaceAll("\\[","").replaceAll("\\]","").replaceAll(",","_")
+    // custom renaming for downstream analyses
     if (file.getName() == newName)
         continue
     def fileUpdated = new File(file.getParent(), newName)
