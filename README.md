@@ -6,7 +6,7 @@ HIA repository: https://github.com/KatherLab/HIA
 
 ### Preprocessing
 - detect_blur.py: file to detect blurry tiles
-- Export_ROI_at_tile_level_select_tissue.groovy: script to select tissue of a Whole Slide Image and to generate tiles
+- Export_ROI_at_tile_level_select_tissue.groovy: script to select tissue of a Whole Slide Image, perform magnification level scaling and to generate tiles
 - preProcessing: scripts to perform image normalization
 - HIA_custom: folder containing modified HIA (KatherLab) scripts to load models from file and not from URL
 - The folder also contains the CLINI and SLIDE files needed to run experiments on HIA
